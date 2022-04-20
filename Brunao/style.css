@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+#logo{
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: white;
+}
+
+#sub-tit{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+    color: rgb(216, 157, 30);
+}
+
+
+
+#text-1{
+z-index: 3;
+width: 20%;
+height: 30px;
+margin-left:620px;
+margin-bottom: 20px;
+display: flex;
+border: 2px solid rgb(230, 84, 84);
+border-radius: 6px;
+box-sizing: border-box;
+transition: 0.5s;
+}
+
+
+#text-1:hover{
+    width: 25%;
+    height: 40px;
+}
+
+
+#text-2{
+    z-index: 2;
+    width: 20%;
+    height: 30px;
+    margin-left:620px;
+    margin-top: 40px;
+    display: flex;
+    border: 2px solid rgb(230, 84, 84);
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+    
+    
+#text-2:hover{
+    width: 25%;
+    height: 40px;
+    
+}
+
+
+#text-3{
+    z-index: 3;
+    width: 20%;
+    height: 30px;
+    margin-left:620px;
+    margin-top: 40px;
+    display: flex;
+    border: 2px solid rgb(230, 84, 84);
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+    
+    
+#text-3:hover{
+    width: 25%;
+    height: 40px;
+    
+}
+
+
+#cadas{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(216, 157, 30);
+font-size: 2em;
+margin-left: 560px;
+padding: 8px;
+}
+
+#bot{
+  padding: 8px;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 710px;
+  margin-top: 20px;
+background-color: white; 
+color: black; 
+border: 2px solid #008CBA;
+border-radius: 3px;
+ transition: 0.5s;
+}
+      
+#bot:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+footer{
+
+    padding-top: 550px;
+    text-align: center;
+    color: white;
+}
+
